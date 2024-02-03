@@ -1,0 +1,14 @@
+#Poner primer.inicio a true para resetear los datos
+#Sat Oct 28 21:09:23 CEST 2023
+datapath.logs=data/logs/logsFernanbnb.log
+gmail.pass=yfzzcqepzkvpubyk
+gmail.user=<REEMPLAZAR_CORREO>
+invitado.menu=true
+pass.bbdd=root
+primer.inicio=false
+ruta.listadoReservas.csv=recursos/listadoReservas/listadoReservas.csv
+ruta.listadoViviendas.csv=recursos/listadoViviendas/listadoViviendas.csv
+ruta.resumen.pdf=recursos/resumenReserva/resumenReserva.pdf
+servidor.bbdd=127.0.0.1/fernanbnb?autoReconnect\=true&useSSL\=false
+telegram.key=https\://api.telegram.org/bot5891635253\:AAFLApaiL38bAj5Yf3B4RSG4NHH_rY8J_I4/sendMessage?chat_id\=1516496600&text\=
+user.bbdd=root
