@@ -40,8 +40,8 @@ CREATE TABLE `Administradores` (
 --
 
 INSERT INTO `Administradores` (`id`, `nombre`, `clave`, `email`, `verificado`) VALUES
-(3075152, 'Adrian', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'adrian@gmail.com', 1),
-(3085177, 'Josemi', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'josemi@gmail.com', 1);
+(3075152, 'Adrian', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'usuario1@example.com', 1),
+(3085177, 'Josemi', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'usuario2@example.com', 1);
 
 -- --------------------------------------------------------
 
@@ -141,9 +141,9 @@ CREATE TABLE `Propietarios` (
 --
 
 INSERT INTO `Propietarios` (`id`, `nombre`, `clave`, `email`, `verificado`) VALUES
-(2029529, 'Juanito ', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'juan@gmail.com', 1),
-(2033575, 'Felipe ', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'felipe@gmail.com', 1),
-(2037774, 'Vicente ', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'vicente@gmail.com', 1);
+(2029529, 'Juanito ', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'usuario3@example.com', 1),
+(2033575, 'Felipe ', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'usuario4@example.com', 1),
+(2037774, 'Vicente ', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'usuario5@example.com', 1);
 
 -- --------------------------------------------------------
 
@@ -194,10 +194,10 @@ CREATE TABLE `Usuarios` (
 --
 
 INSERT INTO `Usuarios` (`id`, `nombre`, `clave`, `email`, `verificado`) VALUES
-(1001177, 'Paco', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'paco@gmail.com', 1),
-(1001503, 'Maria', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'maria@gmail.com', 1),
-(1031761, 'Cindy Nero', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'cindy@gmail.com', 1),
-(1034045, 'eduardo', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'eduardo@gmail.com', 1);
+(1001177, 'Paco', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'usuario6@example.com', 1),
+(1001503, 'Maria', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'usuario7@example.com', 1),
+(1031761, 'Cindy Nero', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'usuario8@example.com', 1),
+(1034045, 'eduardo', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', 'usuario9@example.com', 1);
 
 -- --------------------------------------------------------
 
