@@ -39,3 +39,6 @@ config/fernanbnb.properties
 
 ### Mac OS ###
 .DS_Store
+/apache-tomcat-8.5.92
+
+/Fernanbnb.jar
